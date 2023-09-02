@@ -161,19 +161,19 @@
 
         <!-- 頁尾 -->
         <footer class="container">
-            <p class="float-end"><a href="#top">Back to top</a></p>
+            <p class="float-end"><a href="#top" id="backToTop">Back to top</a></p>
             <p>TEL：02-24622192#7201</p>
             <p>FAX：02-24633492</p>
             <p>E-mail：哈哈哈哈哈哈@mail.ntou.edu.tw</p>
 
         </footer>
 
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script>
-          $(document).ready(function() {
-              $('a[href="#top"]').click(function() {
-                  $('html, body').animate({scrollTop: 0}, 'slow');
-                  return false;
+          document.addEventListener("DOMContentLoaded", function() {
+              var backToTopButton = document.getElementById("backToTop");
+  
+              backToTopButton.addEventListener("click", function() {
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
               });
           });
         </script>
