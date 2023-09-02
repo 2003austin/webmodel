@@ -94,6 +94,23 @@ u{
   }
 }
 
+@media (max-width: 768px){
+  .carousel-caption {
+    bottom: 1rem;
+    z-index: 10;
+
+  }
+
+  .carousel-inner{
+    max-height: 300px
+  }
+  
+  .carousel-item {
+    height: 16rem;
+}
+
+}
+
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
