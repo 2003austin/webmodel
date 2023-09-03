@@ -1,50 +1,28 @@
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
 
 body {
   padding-top: 3.5rem;
   padding-bottom: 3rem;
   color: rgb(var(--bs-tertiary-color-rgb));
 }
-
-
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-/* Carousel base class */
-.carousel {
-  margin-bottom: 4rem;
-}
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  bottom: 3rem;
-  z-index: 10;
-}
-
-/* Declare heights because of positioning of img element */
-.carousel-item {
-  height: 32rem;
+/*導覽列的左右邊距*/
+header li{
+  margin: 0 9px
 }
 
 
 
 
 
-/* Featurettes
-------------------------- */
+
+
+
+/* 水平分割線 */
 
 .featurette-divider {
   margin: 3rem auto 2rem; /* Space out the Bootstrap <hr> more */
 }
 
-/* Thin out the marketing headings */
-/* rtl:begin:remove */
-.featurette-heading {
-  letter-spacing: -.05rem;
-}
 
-/* rtl:end:remove */
 
 /*自己用的css*/
 #navigation .container{
@@ -52,9 +30,7 @@ body {
   height: 100%;
 }
 
-header li{
-  margin: 0 9px
-}
+
 
 
 
@@ -64,15 +40,19 @@ header li{
   
 }
 
-
+/*標楷體*/
 .DFKai-sb{
   font-family: DFKai-sb;
 }
 
+
+/*水平分割線for leader*/
 #intro_2-featurette-divider{
   margin: 1rem auto 2rem;
 }
 
+
+/*底線與字的距離*/
 u{
   text-underline-offset: 5px;
 }
@@ -89,15 +69,7 @@ u{
     line-height: 1.4;
   }
 
-  .featurette-heading {
-    font-size: 50px;
-  }
-}
-
-@media (min-width: 62em) {
-  .featurette-heading {
-    margin-top: 7rem;
-  }
+  
 }
 
 
