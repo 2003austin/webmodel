@@ -31,7 +31,7 @@ header li{
             /* 所有卡片邊框粗細和顏色 */
 /* 所有卡片邊框粗細和顏色 */
 .custom-card {
-  width: 243px;
+  width: 243.2px;
   border: 2px solid #a5a1a1; /* 粗細、顏色 */
   /*border-radius: XXpx;  邊框園角 */
 }
@@ -44,14 +44,14 @@ header li{
   font-size: 20px;
 }
 
-/* 添加悬停效果的 CSS */
+/* 添加懸停效果的 CSS */
 .card:hover {
     transform: translateY(-10px);
      transition: box-shadow 0.3s, transform 0.3s;
   }
 .custom-link {
-    text-decoration: none; /* 去掉下划线 */
-    color: inherit; /* 继承父元素的颜色，保持与周围文本一致 */
+    text-decoration: none; /* 去除底線 */
+    color: inherit; /* 繼承父元素的顏色，保持與周圍文本一致 */
   }
 
 
