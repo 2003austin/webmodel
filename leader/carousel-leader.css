@@ -8,7 +8,12 @@ body {
 header li{
   margin: 0 9px
 }
-
+ /* 添加導覽列觸摸感效果 */
+ .navbar-nav .nav-item:hover {
+  background-color: #e1e1e1; /* 懸停時背景顏色 */
+  transition: background-color 0.3s ease; /* 添加過度效果 */
+  border-radius: 17px;/* 圓滑度 */
+}
 
 
 
