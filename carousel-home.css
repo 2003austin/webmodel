@@ -37,7 +37,7 @@ header li{
 @media (max-width: 768px){
   .carousel-caption {
     bottom: 1rem;
-    z-index: 10;
+    
 
   }
 
