@@ -66,6 +66,11 @@ header li{
 }
 
 
+/* 文繞圖 */
+.text_around_the_map{
+  margin-right: 1.5rem;
+  float: left
+}
 
 
 /*自己用的css(有點不確定作用XD)*/
