@@ -41,6 +41,7 @@ header li{
 
 /* 輪播基礎 */
 .carousel {
+  margin-top:1rem;
   margin-bottom: 4rem;
 }
 /* 標題的定位 */
