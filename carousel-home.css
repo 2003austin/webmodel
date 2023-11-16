@@ -5,7 +5,7 @@ body {
 }
 @media (max-width: 768px){
   body{
-    padding-top: 3.5rem;
+    padding-top: 4.5rem;
   }
 }
 @media (min-width: 768px) and (max-width: 820px){
